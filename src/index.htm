@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>WeightConversionOpgave</title>
+    <link rel="stylesheet" href="styles.scss">
+</head>
+
+<body>
+    <div id="header">
+        <h1>
+            Weight Conversion
+        </h1>
+    </div>
+
+
+
+    <form action="/action_page.php">
+
+        <!--1. Indsætter værdien der skal konverteres-->
+        <input placeholder="Weight" type="number" id="a" name="a">
+
+        <!--2(a) Konverterer til Gram-->
+        <button type="button" title="Convert to Gram" id="b" onclick="x.value=parseFloat(a.value)*parseFloat(b.value=28.34952)">
+            Convert to Gram
+        </button>
+
+        <!--2(b) Konverterer til Ounces-->
+        <button type="button" title="Convert to Ounces" onclick="x.value=parseFloat(a.value)*parseFloat(b.value=0.03527396195)">
+            Convert to Ounces
+        </button>
+
+        <!--3. Slutværdien vises-->
+        <output name="x" for="a b"></output>
+
+
+        <br><br>
+
+
+    </form>
+    
+
+    <!-- <form action="/action_page.php" oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+        Ounces:
+        <input type="number" id="a" name="a" value="50">
+        *
+        <input type="button" id="b" name="b" value="28.34952">
+        =
+        <output name="x" for="a b"></output>
+        g
+        <br><br>
+
+
+    </form> -->
+
+    <!-- <form action="/action_page.php" oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+        Gram:
+        <input type="number" id="a" name="a" value="50">
+        *
+        <input type="button" id="b" name="b" value="0.03527396195">
+        =
+        <output name="x" for="a b"></output>
+        oz
+        <br><br>
+
+
+    </form> -->
+
+</body>
+
+</html>
+
