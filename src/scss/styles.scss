@@ -1,14 +1,14 @@
 $fontColor: #000000;
-$colorHeading: #000000;
+$colorHeading: #f30a0a;
 
 #content  // div with id: content
 {
     color: $fontColor;
 }
 
-h1
+.header h1
 {
-    color: $colorHeading;
+    color: blue;
 }
 
 
